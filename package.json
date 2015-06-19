@@ -1,0 +1,22 @@
+{
+  "name": "enum-props",
+  "version": "1.0.0",
+  "description": "Enums with support for additional metadata",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec/*.spec.js"
+  },
+  "keywords": [
+    "enum",
+    "enumeration"
+  ],
+  "author": "Matt Dunlap <matt.dunlap@leankit.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "enum": "^2.1.0"
+  }
+}
