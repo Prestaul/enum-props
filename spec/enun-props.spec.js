@@ -2,6 +2,8 @@ var Enum = require( "../" );
 var assert = require( "chai" ).assert;
 
 function baseTests( colors ) {
+	var colours = new Enum( [ "red", "yellow", "green" ] );
+
 	it( "enum should be frozen", function() {
 		assert.isTrue( Object.isFrozen( colors ) );
 	} );
@@ -41,6 +43,11 @@ function baseTests( colors ) {
 
 	it( "!== value", function() {
 		assert.notStrictEqual( colors.yellow, 2 );
+	} );
+
+	it( "!= similar enum items", function() {
+		assert.strictEqual( colors.yellow.value, colours.yellow.value );
+		assert.notEqual( colors.yellow, colours.yellow );
 	} );
 }
 
