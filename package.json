@@ -1,6 +1,6 @@
 {
   "name": "enum-props",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enums with support for additional metadata",
   "main": "index.js",
   "scripts": {
