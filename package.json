@@ -13,6 +13,10 @@
   ],
   "author": "Matt Dunlap <mpdunlap@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Prestaul/enum-props.git"
+  },
   "devDependencies": {
     "chai": "^3.0.0",
     "mocha": "^2.2.5"
