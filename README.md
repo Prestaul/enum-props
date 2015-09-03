@@ -49,9 +49,9 @@ for(var i=0; i<=5; i++){ console.log(myEnum.get(i).value + '=> '+ myEnum.get(i).
 
 // define an enum with own custom properties
 var myEnum = new Enum({
-    'A': { value: 1, descrip: 'first' }, 
-    'B': { value: 2, descrip: 'second' }, 
-    'C': { value: 4, descrip: 'third' }
+    'A': { value: 1, description: 'first' }, 
+    'B': { value: 2, description: 'second' }, 
+    'C': { value: 4, description: 'third' }
 });
 
 myEnum.A.value // => 1
